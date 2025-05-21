@@ -1,59 +1,26 @@
-# Track360Challenge
+# **Track 360 Challenge**
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
+> Challenge to translate a popup UI design into functional component.
 
-## Development server
+## **Technologies used for this project.**
 
-To start a local development server, run:
+[<img src='https://img.icons8.com/color/96/000000/html-5--v1.png' alt='HTML' width='50px'/>](https://html.spec.whatwg.org/multipage/)
+[<img src='https://img.icons8.com/color/96/000000/css3.png' alt='CSS' width='50px'/>](https://www.css3.com/)
+[<img src='https://img.icons8.com/color/96/000000/javascript--v1.png' alt='JS' width='50px'/>](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[<img src='https://img.icons8.com/?size=512&id=nCj4PvnCO0tZ&format=png' alt='JS' width='50px'/>](https://www.typescriptlang.org/)
+[<img src='https://img.icons8.com/?size=512&id=71257&format=png' alt='Angular' width='50px'/>](https://angular.io/)
+[<img src='https://img.icons8.com/color/96/000000/sass.png' alt='SASS' width='50px'/>](https://sass-lang.com/)
 
-```bash
-ng serve
+### **How to start project**
+
+## Install project dependecies:
+
+```
+npm install
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Start the web server
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
 ```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
+npm start
 ```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
