@@ -1,0 +1,6 @@
+<div class="button-container">
+  <button mat-button (click)="popupService.open()">Request a Document Popup</button>
+</div>
+<popup title="Request a Document" subtitle="Affiliate ID: 4575693" [(open)]="popupService.openSignal" [actions]="popupService.confirmActions()">
+  <request-a-document-popup-content [model]="requestADocumentModel()"></request-a-document-popup-content>
+</popup>

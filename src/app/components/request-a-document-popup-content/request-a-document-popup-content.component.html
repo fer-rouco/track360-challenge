@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="field-container" >
+        <label>Type</label>
+        <select [(ngModel)]="model().type">
+            <option [value]="1" selected>Choose or enter new document type</option>
+        </select>
+    </div>
+    <div class="field-container">
+        <label>Description</label>
+        <textarea [(ngModel)]="model().description" rows="8" placeholder="Ex: Please upload a clean and clear document" ></textarea>
+    </div>    
+</div>

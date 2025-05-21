@@ -1,0 +1,19 @@
+<div class="popup ease-in-animation" [style.display]="display()"  [class.ease-in-animation]="!display()" >
+  <h2 class="popup__title">{{title()}}</h2>
+  <h3 class="popup__subtitle">{{subtitle()}}</h3>
+  <hr class="popup__separator">
+  <div class="popup__content">
+    <ng-content></ng-content>
+  </div>
+  <hr class="popup__separator">
+  <div class="popup__actions">
+    @for (action of actions(); track action.content) {
+      @if(action.focus) {
+        <button [id]="action.id" (click)="action.fn()" class="popup__action" mat-button cdkFocusInitial >{{action.content}}</button>  
+      }
+      @else {
+        <button [id]="action.id" (click)="action.fn()" class="popup__action" mat-button >{{action.content}}</button>  
+      }
+    }
+  </div>
+</div>
