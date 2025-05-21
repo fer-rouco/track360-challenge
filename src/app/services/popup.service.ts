@@ -20,18 +20,4 @@ export class PopupService {
       { id: "confirm", content: "Confirm", fn: () => { this.close(); confirmFn ? confirmFn() : null; }, focus: true }
     ];
   }
-
-  okCancelActions(okFn?: () => void): Array<Action> {
-    return [
-      { id: "cancel", content: "Cancel", fn: () => { this.close(); } },
-      { id: "ok", content: "Ok", fn: () => { this.close(); okFn ? okFn() : null; }, focus: true }
-    ];
-  }
-  
-  yesNoActions(yesFn?: () => void): Array<Action> {
-    return [
-      { id: "no", content: "No", fn: () => { this.close(); } },
-      { id: "yes", content: "Yes", fn: () => { this.close(); yesFn ? yesFn() : null; }, focus: true }
-    ];
-  }
 }
